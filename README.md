@@ -220,11 +220,11 @@ Values may be of any type.
 Created using curly braces {}.
 
 
-# Create a list of numbers
+<!-- # Create a list of numbers -->
 
 numbers = [1, 2, 3, 4, 5]
 
-# Create a dictionary with key-value pairs
+<!-- # Create a dictionary with key-value pairs -->
 
 person = {
     "name": "John",
@@ -232,31 +232,31 @@ person = {
     "city": "New York"
 }
 
-# Basic operations on the list
+<!-- # Basic operations on the list -->
 print("Original list:", numbers)
 
-# Append an item to the list
+<!-- # Append an item to the list -->
 numbers.append(6)
 print("After appending 6:", numbers)
 
-# Access an item by index
+<!-- # Access an item by index -->
 print("Item at index 2:", numbers[2])
 
-# Remove an item from the list
+<!-- # Remove an item from the list -->
 numbers.remove(3)
 print("After removing 3:", numbers)
 
-# Basic operations on the dictionary
+<!-- # Basic operations on the dictionary -->
 print("Original dictionary:", person)
 
-# Access a value by key
+<!-- # Access a value by key -->
 print("Name:", person["name"])
 
-# Add a new key-value pair
+<!-- # Add a new key-value pair -->
 person["email"] = "john@example.com"
 print("After adding email:", person)
 
-# Remove a key-value pair
+<!-- # Remove a key-value pair -->
 del person["age"]
 print("After removing age:", person)
 
@@ -354,9 +354,9 @@ Close the file, or preferably use a context manager which will automatically han
 
 Script for reading a file
 
-# read_file.py
+<!-- # read_file.py
 
-# Using a context manager to ensure the file is properly closed after reading
+# Using a context manager to ensure the file is properly closed after reading -->
 
 with open('example.txt', 'r') as file:
 
@@ -373,11 +373,11 @@ Write the contents using write() or writelines() methods.
 Also either close the file or use a context manager, as this does it automatically.
 
 Script for writing to a file
-# write_file.py
+<!-- # write_file.py -->
 
 lines_to_write = ["First line\n", "Second line\n", "Third line\n"]
 
-# Using a context manager to ensure the file is properly closed after writing
+<!-- # Using a context manager to ensure the file is properly closed after writing -->
 
 with open('output.txt', 'w') as file:
 
