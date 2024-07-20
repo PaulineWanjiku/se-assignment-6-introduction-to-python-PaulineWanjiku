@@ -299,7 +299,7 @@ def divide_numbers(a, b):
 
         print("Execution completed.")
 
-# Test cases
+<!-- Test cases -->
 
 divide_numbers(10, 2)
 
